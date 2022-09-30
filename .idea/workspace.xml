@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="493e38f9-e40d-49a3-ae59-81f547fa040a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CoZm38fVlmRe54In84QImO68gs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/PycharmProjects/T_Shirt_World/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\T_Shirt_World\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\T_Shirt_World\static" />
+      <recent name="D:\PycharmProjects\T_Shirt_World\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="T_Shirt_World" type="Python.DjangoServer" factoryName="Django server">
+      <module name="T_Shirt_World" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="T_Shirt_World.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="493e38f9-e40d-49a3-ae59-81f547fa040a" name="Default Changelist" comment="" />
+      <created>1659471054886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659471054886</updated>
+      <workItem from="1659471416903" duration="1695000" />
+      <workItem from="1659551831391" duration="3730000" />
+      <workItem from="1659556386798" duration="657000" />
+      <workItem from="1659557145820" duration="533000" />
+      <workItem from="1659641338991" duration="34000" />
+      <workItem from="1661716139472" duration="435000" />
+      <workItem from="1661888843507" duration="1773000" />
+      <workItem from="1662053230950" duration="7383000" />
+      <workItem from="1662143094173" duration="4859000" />
+      <workItem from="1662229620150" duration="125000" />
+      <workItem from="1662233433045" duration="2067000" />
+      <workItem from="1662317170184" duration="3193000" />
+      <workItem from="1662403944184" duration="2251000" />
+      <workItem from="1662493465304" duration="1536000" />
+      <workItem from="1662577900784" duration="3165000" />
+      <workItem from="1662662351789" duration="1140000" />
+      <workItem from="1662748421654" duration="4589000" />
+      <workItem from="1662837805615" duration="2076000" />
+      <workItem from="1662922946393" duration="2782000" />
+      <workItem from="1663008218584" duration="3818000" />
+      <workItem from="1663093634094" duration="3434000" />
+      <workItem from="1663098058636" duration="26000" />
+      <workItem from="1663181455865" duration="1631000" />
+      <workItem from="1663186021246" duration="881000" />
+      <workItem from="1663187091265" duration="109000" />
+      <workItem from="1663442032789" duration="798000" />
+      <workItem from="1663470751216" duration="2341000" />
+      <workItem from="1663528803982" duration="730000" />
+      <workItem from="1663557941562" duration="49000" />
+      <workItem from="1663701354614" duration="4000" />
+      <workItem from="1663701713362" duration="989000" />
+      <workItem from="1663790034281" duration="16000" />
+      <workItem from="1663963745935" duration="344000" />
+      <workItem from="1664394402166" duration="105000" />
+      <workItem from="1664394845273" duration="44000" />
+      <workItem from="1664476118734" duration="135000" />
+      <workItem from="1664482724455" duration="1007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

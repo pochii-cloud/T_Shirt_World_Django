@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+{% block title %}
+    <head>
+        <meta charset="UTF-8">
+        <title>navigation</title>
+    </head>
+{% endblock %}
+<body>
+{% block body %}
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+
+                        <!-- ***** Logo Start ***** -->
+                        <a href="{% url 'Homepage' %}" class="logo">
+                            <img src="{% static 'images/logo1.jpg' %}" alt="" height="80px">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="{% url 'Homepage' %}" class="active">Home</a></li>
+
+                            <li><a href="{% url 'AboutUs' %}">About Us</a></li>
+                            <li><a href="{% url 'ProductsPage' %}">Products</a></li>
+                            <li><a href="{% url 'ContactUs' %}">Contact Us</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">My Account</a>
+                                <ul>
+                                    <li><a href="{% url 'login' %}">Login</a></li>
+                                    <li><a href="{% url 'RegisterUser' %}">Sign Up</a></li>
+                                    <li><a href="{% url 'LogoutPage' %}">Log Out {{ request.user }}</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="{% url 'MyOrders' %}">MyOrders</a></li>
+                            <li><a href="{% url 'MyCart' %}"><i
+                                    class="fa fa-shopping-cart"></i> </a></li>
+                            <li>
+                                <a href="#">
+                                    <form method="get" action="{% url 'SearchResults' %}">
+                                        {% csrf_token %}
+                                        <input type="text" name="search" id="search_text" placeholder="Search Product " class="form-control " required="required"/>
+
+                                    </form>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+{% endblock %}
+</body>
+</html>

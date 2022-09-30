@@ -1,0 +1,98 @@
+{% extends 'index.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category_Detail</title>
+</head>
+{% block body %}
+    <body>
+    <style>
+        .page-heading {
+            margin-top: 160px;
+            margin-bottom: 30px;
+            background-image: url({{ category.image.url }});
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="page-heading" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <h2>Check Our {{ category.name }} Products</h2>
+                        <span>Awesome &amp; High Quality Products</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+
+    <!-- ***** Products Area Starts ***** -->
+    <section class="section" id="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Our Latest {{ category.name }} Products</h2>
+                        {#                        <span>Check out high quality {{ category.name }} products.</span>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            {% if products %}
+                {% for products in products %}
+                    <div class="col-lg-4">
+
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="{% url 'ProductDetails' products.id %}"><i
+                                                class="fa fa-eye"></i></a></li>
+                                        <li><a href="product-detail.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="{% url 'AddToCartView' products.id %}"><i
+                                                class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{{ products.image1.url }}" alt="" height="270px">
+                            </div>
+                            <div class="down-content">
+                                <h4><a class="text-dark"
+                                       href="{% url 'ProductDetails' products.id %}">{{ products.name }}</a></h4>
+                                <span>Ksh.{{ products.price }}</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                {% endfor %}
+                {% else %}
+                <div class="container">
+                <div class=" alert alert-success text-center p-5">
+                    <button class="btn btn-dark" style="border-radius: 0;">Continue Shopping</button>
+                </div>
+                </div>
+            {% endif %}
+            </div>
+        </div>
+    </section>
+    </body>
+{% endblock %}
+</html>
